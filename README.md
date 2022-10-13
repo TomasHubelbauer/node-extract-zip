@@ -1,5 +1,7 @@
 # Node Extract Single-File ZIP Archive
 
+[![pages-build-deployment](https://github.com/TomasHubelbauer/node-extract-zip/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/TomasHubelbauer/node-extract-zip/actions/workflows/pages/pages-build-deployment)
+
 The following snippet of code implements a function which will take a `Buffer`
 of a ZIP archive file contents and find a single deflated file inside, which it
 will then inflate and return the result as another `Buffer`.
@@ -24,4 +26,4 @@ const data = JSON.parse(buffer);
 This repository has an associated GitHub Pages site.
 This is so that `index.js` can be accessed with a correct MIME type to be usable
 with ESM.
-Direct GitHub web UI URL access or the raw UI URL access won't work.
+The badge at the top relates to the GitHub Actions workflow for GitHub Pages.
