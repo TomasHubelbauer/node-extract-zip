@@ -1,4 +1,3 @@
-import fs from 'fs';
 import util from 'util';
 import zlib from 'zlib';
 
