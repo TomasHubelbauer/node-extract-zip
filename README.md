@@ -12,7 +12,7 @@ size and offset of the DEFLATE stream.
 The stream is then fed into `zlib` Node built-in module's function `inflateRaw`.
 
 The implementation can be found in [`index.js`](index.js) or referenced via ESM
-HTTP imports if you use the experimental `--experimental-https-modules` CLI
+HTTP imports if you use the experimental `--experimental-network-imports` CLI
 flag.
 
 ```javascript
